@@ -31,7 +31,11 @@ export default function Home() {
       const formData = new FormData()
       formData.append('url', url)
 
-      const response = await fetch('http://localhost:8000/extract', {
+      const baseUrl = process.env.NODE_ENV === "development"
+        ? "http://localhost:8000"
+        : "https://twihub-backend-production.up.railway.app";
+      
+      const response = await fetch(`${baseUrl}/extract`, {
         method: 'POST',
         body: formData,
       })
