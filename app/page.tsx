@@ -61,7 +61,7 @@ export default function Home() {
           <div className="flex items-center justify-center mb-6">
             <div className="text-5xl font-bold">
               <span className="text-white">Twi</span>
-              <span className="text-white bg-orange-500 text-black px-2 py-1 rounded-lg">
+              <span className="bg-orange-500 text-black px-2 py-1 rounded-lg">
                 Hub
               </span>
             </div>
