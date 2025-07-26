@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "TwiHub",
-  description: "저는 26살입니다 광고를 주세요 씨발놈아",
+  description: "Download Twitter/X videos easily",
 };
 
 export default function RootLayout({
