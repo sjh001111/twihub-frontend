@@ -66,7 +66,7 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <p className="text-xl text-gray-300">저는 26살입니다 광고를 주세요 씨발놈아</p>
+          <p className="text-xl text-gray-300">Download Twitter/X videos easily</p>
         </div>
 
         {/* 입력 폼 */}
